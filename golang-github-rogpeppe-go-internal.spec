@@ -6,7 +6,7 @@
 # https://github.com/rogpeppe/go-internal
 %global goipath		github.com/rogpeppe/go-internal
 %global forgeurl	https://github.com/rogpeppe/go-internal
-Version:		1.12.0
+Version:		1.13.1
 
 %gometa
 
