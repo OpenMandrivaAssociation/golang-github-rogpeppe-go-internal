@@ -6,7 +6,7 @@
 # https://github.com/rogpeppe/go-internal
 %global goipath		github.com/rogpeppe/go-internal
 %global forgeurl	https://github.com/rogpeppe/go-internal
-Version:		1.13.1
+Version:		1.14.1
 
 %gometa
 
@@ -54,7 +54,7 @@ building other packages which use import path with
 #-----------------------------------------------------------------------
 
 %prep
-%autosetup -p1 -n go-internal-%{version}
+%autosetup -p1 -n go-internal-1.14.1
 
 %build
 %gobuildroot
